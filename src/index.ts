@@ -2,8 +2,9 @@ import { Command } from 'commander';
 import figlet from 'figlet';
 
 const program = new Command();
+const title: string = "ivandjoh-cli";
 
-console.log(figlet.textSync('Hello World!'));
+console.log(figlet.textSync(title));
 
 program
   .version("1.0.0")
